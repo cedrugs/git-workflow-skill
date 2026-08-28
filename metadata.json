@@ -1,0 +1,20 @@
+{
+  "version": "1.0.0",
+  "organization": "nutrisi.ai",
+  "date": "August 2026",
+  "abstract": "House conventions for version control across every repository: commit grammar, branch naming, the feature-to-staging-to-tag release flow, merge request and issue formats, the six-dimension scoped label taxonomy, semantic version bumps, and the CI/CD pipeline. Written for agents driving git, glab and gh, where the failure mode is not bad code but an unlabelled MR, a guessed version bump, a tag cut from an unsynced branch, or an issue left open because nothing closed it. Each rule states the trap it prevents.",
+  "references": [
+    "https://docs.gitlab.com/ee/user/project/merge_requests/",
+    "https://docs.gitlab.com/ee/user/project/labels.html",
+    "https://docs.gitlab.com/ee/user/project/quick_actions.html",
+    "https://docs.gitlab.com/ee/user/project/issues/managing_issues.html",
+    "https://semver.org",
+    "https://www.conventionalcommits.org"
+  ],
+  "maintainer": {
+    "name": "Samuel Cedric",
+    "github": "cedrugs",
+    "url": "https://github.com/cedrugs"
+  },
+  "license": "MIT"
+}
